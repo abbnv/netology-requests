@@ -39,6 +39,6 @@ def translate_it(text_file, result_file, from_lang, to_lang='ru'):
 
 
 if __name__ == '__main__':
-    print(translate_it(text_file='DE.txt', result_file='done/DE-RU.txt', from_lang='de', to_lang='ru'))
-    print(translate_it(text_file='ES.txt', result_file='done/ES-RU.txt', from_lang='es', to_lang='ru'))
-    print(translate_it(text_file='FR.txt', result_file='done/FR-RU.txt', from_lang='fr', to_lang='ru'))
+    print(translate_it(text_file='DE.txt', result_file='DE-RU.txt', from_lang='de', to_lang='ru'))
+    print(translate_it(text_file='ES.txt', result_file='ES-RU.txt', from_lang='es', to_lang='ru'))
+    print(translate_it(text_file='FR.txt', result_file='FR-RU.txt', from_lang='fr', to_lang='ru'))

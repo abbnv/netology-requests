@@ -23,4 +23,4 @@ def download_on_disk(file, path):
 
 
 if __name__ == '__main__':
-    download_on_disk("done/FR-RU.txt", path='path191')
+    download_on_disk("FR-RU.txt", path='path')
